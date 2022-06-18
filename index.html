@@ -45,6 +45,7 @@
 
             <!-- back/next -->
             <div class="absolute inset-0 flex">
+               
                 <div class="flex items-center justify-start w-1/2">
                     <button x-on:click="activeSlide = activeSlide === 1 ? slides.length : activeSlide - 1"
                         class="bg-slate-100 text-slate-500 transition hover:text-white hover:bg-blue-500 font-bold rounded-full w-12 h-12 flex justify-center shadow items-center -ml-16">
@@ -54,6 +55,7 @@
                         </svg>
                     </button>
                 </div>
+                
                 <div class="flex items-center justify-end w-1/2">
                     <button x-on:click="activeSlide = activeSlide === slides.length ? 1 : activeSlide + 1"
                         class="bg-slate-100 text-slate-500 transition hover:text-white hover:bg-blue-500 font-bold rounded-full w-12 h-12 flex justify-center shadow items-center -mr-16">
@@ -63,6 +65,7 @@
                         </svg>
                     </button>
                 </div>
+
             </div>
 
             <!-- button -->
@@ -76,6 +79,7 @@
                     }" x-on:click="activeSlide = slide.id"></button>
                 </template>
             </div>
+
         </div>
     </div>
 

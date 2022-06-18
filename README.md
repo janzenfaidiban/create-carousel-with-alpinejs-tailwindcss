@@ -45,7 +45,7 @@ https://janzenfaidiban.github.io/create-carousel-with-alpinejs-tailwindcss/
 
 ## Tombol Next
                 
-    <div class="flex items-center justify-end w-1/2">
+    `<div class="flex items-center justify-end w-1/2">
         <button x-on:click="activeSlide = activeSlide === slides.length ? 1 : activeSlide + 1"
             class="bg-slate-100 text-slate-500 transition hover:text-white hover:bg-blue-500 font-bold rounded-full w-12 h-12 flex justify-center shadow items-center -mr-16">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -53,4 +53,4 @@ https://janzenfaidiban.github.io/create-carousel-with-alpinejs-tailwindcss/
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
             </svg>
         </button>
-    </div>
+    </div>`

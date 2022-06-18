@@ -14,8 +14,9 @@ https://janzenfaidiban.github.io/create-carousel-with-alpinejs-tailwindcss/
 
 ## Membuat Data
 
-    <div class="max-w-4xl mx-auto relative" x-data="{
+    x-data="{
         activeSlide: 3,
+        
         slides: [
         {id:1, title: 'Hello 1', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, esse!'},
         {id:2, title: 'Hello 2', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam fugiat maxime aliquam consequuntur dignissimos nostrum quae debitis quasi eos.'},
@@ -23,8 +24,9 @@ https://janzenfaidiban.github.io/create-carousel-with-alpinejs-tailwindcss/
         {id:4, title: 'Hello 4', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quisquam fugiat maxime aliquam consequuntur dignissimos nostrum quae debitis quasi eos.'},
         {id:5, title: 'Hello 5', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, esse!'},
         ],
+
         loop() {
             setInterval(() => {this.activeSlide = this.activeSlide === 5 ? 1 : this.activeSlide + 1}, 2000)
         }
         
-    }" x-init="loop">
+    }"

@@ -5,3 +5,7 @@
 
 ## Demo
 https://janzenfaidiban.github.io/create-carousel-with-alpinejs-tailwindcss/
+
+## Screenshot
+
+![alt text](https://raw.githubusercontent.com/janzenfaidiban/create-carousel-with-alpinejs-tailwindcss/main/screenshoot.png)
